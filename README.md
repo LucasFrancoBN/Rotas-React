@@ -3,10 +3,22 @@
 <!-- LINKS -->
 <div align="center">
  <h2> Sumário</h2>
+  <a href="#fotos">Fotos</a> -
   <a href="#sobre">Sobre o Projeto</a> - 
   <a href="#tec">Tecnologias</a>
 </div>
 <br>
+
+<!-- FOTOS -->
+<div id="fotos">
+    <h2> 📸 Fotos </h2>
+        <img src="./public/img/home.jpg" alt="" style="width:750px">
+        <br><br>
+       
+ <h2> 📱 Responsivo </h2>
+    <img src="./public/img/rotas-responsivo.gif" alt="" style="width:250px">
+        <br><br>
+</div>
 
 <!-- SOBRE -->
 <div id="sobre">
