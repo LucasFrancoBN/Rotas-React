@@ -14,9 +14,9 @@ const App = () => {
       <Header />
       <ContentContainer>
         <Routes>
-          <Route path="/" element={<Produtos />} />
-          <Route path="contato" element={<Contato />} />
-          <Route path="produto/:id" element={<Produto />} />
+          <Route path="/Rotas-React/" element={<Produtos />} />
+          <Route path="/Rotas-React/contato" element={<Contato />} />
+          <Route path="/Rotas-React/produto/:id" element={<Produto />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </ContentContainer>

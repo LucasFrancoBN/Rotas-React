@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
-import Loading from "../../Loading/Loading";
+import Loading from "../Loading/Loading";
 import Head from "../Head/Head";
 import {
   ContainerProduto,

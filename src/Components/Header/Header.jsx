@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <NavbarContainer>
-        <NavbarLink to="/" end="true">
+        <NavbarLink to="/Rotas-React/" end="true">
           Produto
         </NavbarLink>
-        <NavbarLink to="/contato">Contato</NavbarLink>
+        <NavbarLink to="/Rotas-React/contato">Contato</NavbarLink>
       </NavbarContainer>
     </HeaderWrapper>
   );
