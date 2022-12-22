@@ -42,7 +42,6 @@ const Produto = () => {
         </ContainerProduto>
       </>
     );
-  else return <p>Deu merda</p>;
 };
 
 export default Produto;
