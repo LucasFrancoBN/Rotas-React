@@ -150,7 +150,7 @@ Error generating stack: `+l.message+`
 `,D0=he.img`
   max-width: 100%;
   border-radius: 15px;
-`,F0=he.h3``,U0=()=>{const{dados:e,loading:t,error:n}=Ld("https://ranekapi.origamid.dev/json/api/produto");return n?F("p",{children:n}):Qe(gr,{children:[F(ys,{title:"Ranek"}),Qe(j0,{anime:!0,children:[t&&e===null&&F(Od,{}),e!==null&&e.map(({id:r,fotos:o,nome:l})=>Qe(vs,{to:"/React-Rotas/produto/"+r,style:{textDecoration:"none",color:"black"},children:[F(D0,{src:o[0].src}),F(F0,{children:l})]},r))]})]})},B0=Fl`
+`,F0=he.h3``,U0=()=>{const{dados:e,loading:t,error:n}=Ld("https://ranekapi.origamid.dev/json/api/produto");return n?F("p",{children:n}):Qe(gr,{children:[F(ys,{title:"Ranek"}),Qe(j0,{anime:!0,children:[t&&e===null&&F(Od,{}),e!==null&&e.map(({id:r,fotos:o,nome:l})=>Qe(vs,{to:"/Rotas-React/produto/"+r,style:{textDecoration:"none",color:"black"},children:[F(D0,{src:o[0].src}),F(F0,{children:l})]},r))]})]})},B0=Fl`
   from {
     opacity: 0;
     transform: translate3d(-50px, 0, 0);
