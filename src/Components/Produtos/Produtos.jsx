@@ -19,7 +19,7 @@ const Produtos = () => {
           dados.map(({ id, fotos, nome }) => (
             <Link
               key={id}
-              to={"/React-Rotas/produto/" + id}
+              to={"/Rotas-React/produto/" + id}
               style={{ textDecoration: "none", color: "black" }}
             >
               <ImgProdutos src={fotos[0].src} />
